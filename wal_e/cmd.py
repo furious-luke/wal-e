@@ -570,7 +570,7 @@ def monkeypatch_tarfile_copyfileobj():
     import tarfile
     from wal_e import copyfileobj
 
-    tarfile.copyfileobj = copyfileobj.copyfileobj
+    # tarfile.copyfileobj = copyfileobj.copyfileobj
 
 
 def render_subcommand(args):
